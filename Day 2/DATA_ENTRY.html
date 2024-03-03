@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homepage Data Entry</title>
+    <style>
+        body {
+            font-family: Helvetica;
+        }
+        p, label, input, select, textarea {
+            margin-bottom:12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Homepage Data Entry</h1>
+    <form>
+        <label>Nama:</label><br>
+        <input type="text" name="nama"><br>
+        <label>NRP:</label><br>
+        <input type="text" name="nrp"><br>
+        <label>Kelas:</label><br>
+        <input type="text" name="kelas"><br>
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="gender" value="pria"> Pria<br>
+        <input type="radio" name="gender" value="wanita"> Wanita<br>
+        <label>Agama:</label><br>
+        <select name="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+        </select><br>
+        <label>Tempat/Tanggal Lahir:</label><br>
+        <input type="text" name="ttl"><br>
+        <label>Alamat:</label><br>
+        <textarea name="alamat"></textarea><br>
+        <label>Riwayat Pendidikan:</label><br>
+        SD: <input type="text" name="sd"><br>
+        SMP: <input type="text" name="smp"><br>
+        SMA: <input type="text" name="sma"><br>
+        <label>Email:</label><br>
+        <input type="text" name="email"><br>
+        <label>Homepage:</label><br>
+        <input type="text" name="homepage"><br>
+        <label>Hobby:</label><br>
+        <textarea name="hobby"></textarea><br>
+        <label>Interest:</label><br>
+        <input type="checkbox" name="interest" value="Komputer"> Game<br>
+        <input type="checkbox" name="interest" value="Sport"> Sport<br>
+        <input type="checkbox" name="interest" value="Travelling"> Movie<br>
+        <input type="checkbox" name="interest" value="Writing"> Novel<br>
+        <input type="checkbox" name="interest" value="Reading"> Nothing<br>
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
