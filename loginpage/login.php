@@ -101,19 +101,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <script>
-        document.getElementById('togglePassword').addEventListener('click', function () {
-            var passwordField = document.getElementById('password');
-            var passwordFieldType = passwordField.getAttribute('type');
-            if (passwordFieldType === 'password') {
-                passwordField.setAttribute('type', 'text');
-                this.textContent = 'Hide';
-            } else {
-                passwordField.setAttribute('type', 'password');
-                this.textContent = 'Show';
-            }
-        });
-    </script>
 </body>
 
 </html>
