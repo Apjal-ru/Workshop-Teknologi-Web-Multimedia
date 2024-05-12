@@ -11,6 +11,11 @@ Route::get('/mypage', function () {
     return view('mypage');
 });
 
+Route::get('/profilku', function () {
+    return view('myprofile');
+});
+Route::get('/profilku', 'App\Http\Controllers\NewProfileController@index');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
